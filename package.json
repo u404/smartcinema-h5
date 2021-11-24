@@ -1,0 +1,42 @@
+{
+  "name": "smartcinema-h5",
+  "version": "2.2.1",
+  "private": true,
+  "dependencies": {
+    "@sc/lib-axios": "latest",
+    "@sc/lib-callapp": "latest",
+    "@sc/lib-env": "latest",
+    "@sc/lib-sensors": "latest",
+    "@sc/lib-share": "latest",
+    "@sc/lib-user": "latest",
+    "@sc/lib-web-utils": "latest",
+    "@sc/lib-windvane": "latest",
+    "@sc/lib-wx": "latest",
+    "@sc/oops-toast": "latest",
+    "@sc/vue-plugin-phone-receive": "latest",
+    "@sc/vue-ui-common": "latest",
+    "@sc/vue-ui-h5": "latest",
+    "swiper": "^5.4.2",
+    "vue-awesome-swiper": "^4.1.1",
+    "vue-cute-rate": "^1.0.2",
+    "vue-router": "^3.3.4",
+    "vue-video-player": "^5.0.2"
+  },
+  "devDependencies": {
+    "@sc/cli-plugin-babel": "latest",
+    "@sc/cli-plugin-eslint": "latest",
+    "@sc/cli-service": "latest",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0-0",
+    "html-webpack-plugin": "^4.4.1",
+    "node-sass": "^4.9.0",
+    "page-skeleton-webpack-plugin": "^0.10.12",
+    "sass-loader": "^7.0.1",
+    "vue-template-compiler": "^2.5.17"
+  },
+  "scripts": {
+    "lint": "vue-cli-service lint"
+  }
+}

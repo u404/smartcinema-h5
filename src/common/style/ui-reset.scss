@@ -1,0 +1,27 @@
+.h5-loading-panel {
+  position: absolute;
+  background-color: #111;
+}
+
+.h5-loading {
+  z-index: 10000;
+}
+
+.vue-plugin-scroll {
+  width: 100%;
+  .scroll-wrap .scroll-tips {
+    width: 100%;
+    font-size: rem(12);
+    color: #fff;
+  }
+}
+.error-tips {
+  flex: 0 0 auto;
+  margin: rem(15) 0 rem(10);
+  height: rem(20);
+  @include flex($jus: center);
+  font-size: rem(13);
+  color: #FF314A;
+}
+
+
